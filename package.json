@@ -1,0 +1,17 @@
+{
+  "name": "fixer",
+  "version": "1.0.0",
+  "description": "An app to convert Windows style network paths to Mac ones.",
+  "main": "js/app.js",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-mocks": "^1.4.8",
+    "clipboard": "^1.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "Mateusz Majewski",
+  "license": "ISC"
+}

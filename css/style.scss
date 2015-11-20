@@ -1,0 +1,106 @@
+$background: #6c5a7c;
+$header: #fab192;
+$windows: #f8717e;
+$mac: #c26b84;
+@font-face
+{
+    font-family: 'avenir';
+
+    src: url('Avenir-Heavy.ttf');
+}
+
+body
+{
+    font-family: avenir, helvetica, arial, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+
+    color: #fff;
+    background: $background;
+}
+header
+{
+    font-size: 32px;
+
+    padding: 30px 20px 20px 20px;
+
+    text-align: left;
+
+    background: $header;
+}
+#windows-path
+{
+    height: 256px;
+    padding: 20px;
+
+    background: $windows;
+}
+#mac-path
+{
+    height: auto;
+    padding: 20px;
+
+    cursor: pointer;
+    text-align: left;
+
+    background: $mac;
+}
+.path-input
+{
+    width: 100%;
+    margin-top: 76px;
+
+    text-align: left;
+
+    border: none;
+    outline: none;
+    background: none;
+}
+#copied-to-clipboard
+{
+    font-size: 18px;
+
+    position: absolute;
+    z-index: 10;
+    top: 0;
+
+    display: none;
+
+    width: 100%;
+
+    text-align: center;
+
+    background: $mac;
+}
+
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak
+{
+    display: none !important;
+}
+
+::-webkit-input-placeholder
+{
+    color: rgba(255,255,255,.8);
+}
+
+:-moz-placeholder
+{
+    /* Firefox 18- */
+    color: rgba(255,255,255,.8);
+}
+
+::-moz-placeholder
+{
+    /* Firefox 19+ */
+    color: rgba(255,255,255,.8);
+}
+
+:-ms-input-placeholder
+{
+    color: rgba(255,255,255,.8);
+}
