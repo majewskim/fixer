@@ -1,4 +1,4 @@
 # fixer
-Little tool for converting windows network paths to mac ones.
+A little tool for converting windows network paths to mac ones.
 
 Tool available under : http://fixer.concretecutmedia.com/
